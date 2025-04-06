@@ -41,8 +41,8 @@ fig1.radius = 1
 
 
 def print_ats(fig):
-    for item in fig.__dict__.items():
-        print(item, end=" ")
+    for value in fig.__dict__.values():
+        print(value, end=" ")
     print()
 
 
