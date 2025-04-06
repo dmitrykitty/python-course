@@ -1,7 +1,7 @@
 from xmlrpc.client import MAXINT
 
 
-class Cat:
+class Cat: #tylko CamelCase bez liczb
     """Description of your class. U can get it by using method Cat.__doc__"""
     name = "Kristinka"
     weight = 5.5
