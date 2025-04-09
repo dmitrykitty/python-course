@@ -66,7 +66,7 @@ class TrianleChecker:
         for side in (self.a, self.b, self.c):
             if not (isinstance(side, float) or isinstance(side, int)):
                 return 1
-        # res = all(map(lambda x: type(x) in (float, int), (self.a, self.b, self.c)))
+        # if all(map(lambda x: type(x) in (float, int), (self.a, self.b, self.c))): return 1
         # zwroci true kiedy każdy jest true
 
         if self.a + self.b < self.c or self.a + self.c < self.b or self.b + self.c < self.a:
