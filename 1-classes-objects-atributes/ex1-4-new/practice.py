@@ -8,9 +8,10 @@ class Loader:
 
 
 class Factory:
+    @staticmethod
     def build_sequence(self):
         return []
-
+    @staticmethod
     def build_number(self, string):
         return float(string)
 
