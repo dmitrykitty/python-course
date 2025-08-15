@@ -16,6 +16,7 @@ print(a.name)  # Kristinka
 Cat.name = "Dimka"
 print(a.name)  # imie zmienie się dla wszystkich obiektow klasa Cat
 a.name = "Kristinka"  # teraz w a będzie name Dimka, u reszty Kristinka
+#name = Kristinka juz lokalny atrybut dla a
 
 Cat.surname = "Nikitina"  # dodanie atrybutu surname
 b.surname = "Nikitin"

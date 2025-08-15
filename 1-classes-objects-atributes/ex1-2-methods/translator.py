@@ -15,6 +15,7 @@ class Translator:
     def translate(self, eng):
         if eng in self.dictionary.keys():
             return self.dictionary[eng]
+        return None
 
     def show_all(self):
         for word in self.dictionary.keys():
