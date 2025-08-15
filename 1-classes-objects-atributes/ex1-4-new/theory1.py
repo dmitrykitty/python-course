@@ -30,3 +30,7 @@ class Singleton:
 
     def method1(self):
         pass
+
+    def __del__(self):
+        print("Singleton deleted")
+        Singleton.__instance = None
